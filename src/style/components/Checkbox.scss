@@ -1,0 +1,27 @@
+
+.checkbox {
+    $self:&;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.checked .checkmark{
+        display: flex;
+    }
+
+    .checkmark {
+        display: none;
+        width: 20px;
+        height: 20px;
+            
+    justify-content: center;
+    align-items: center;
+    }
+}
+

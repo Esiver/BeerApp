@@ -1,0 +1,13 @@
+@import "./misc/variables.scss";
+
+@import "./components/Checkbox.scss";
+@import "./components/Table.scss";
+@import "./components/Beer.scss";
+@import "./components/Filter.scss";
+@import "./components/Button.scss";
+
+
+main {
+    padding-top: 64px;
+    font-family: $font--std;
+}

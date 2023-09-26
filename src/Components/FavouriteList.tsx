@@ -20,6 +20,7 @@ const FavouriteList: React.FC<Props> = ({ title }) => {
         <h2>
           {title} ({favoriteBeers ? favoriteBeers.length : "0"})
         </h2>
+        
 
         {favoriteBeers.length > 0 ? (
           <button

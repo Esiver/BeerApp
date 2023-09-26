@@ -76,7 +76,7 @@ function BeerApp() {
           onSearchQueryChange={handleSearchQueryChange} 
         />
         <FavouriteList 
-          title="Favourites" 
+          title="Favourite Beers" 
           
         />
         <h2>

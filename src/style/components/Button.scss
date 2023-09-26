@@ -1,10 +1,10 @@
 .button {
     $self:&;
     padding: 1rem 2rem;
-    background-color: $color--primary;
+    background-color: rgba($color--primary, 0.25);
     color: white;
     cursor: pointer;
-    border: unset;
+    border: 2px solid $color--primary;
 
     &#{$self}--small {
         padding: 0.5rem 1rem;
@@ -12,6 +12,7 @@
     }
 
     &.danger {
-        background-color: red;
+        background-color: rgba($color--warning, 0.25);
+        border: 2px solid $color--warning;
     }
 }

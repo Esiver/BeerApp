@@ -13,7 +13,7 @@ const BeerItem:React.FC<BeerItemProps> = ({beerData }) => {
     return(
         <>
         <li className="beer__item" key={beerData.id}>
-            <a href={query}>
+            <a target="_blank" href={query}>
                 {beerData.name}🍺
             </a>
             
